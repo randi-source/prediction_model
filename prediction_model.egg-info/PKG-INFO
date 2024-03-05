@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: prediction-model
+Version: 1.0.0
+Summary: Load Prediction Model
+Home-page: https://github.com/randi-source
+Author: Randi Eka Sanjaya
+Author-email: randi.eka1301@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: Cpython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10.13
+Description-Content-Type: text/markdown
+
+
+## Packaging Dir Template for ML Model
+
+packaging-ml-model/
+├── MANIFEST.in
+├── prediction_model/
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── config.py
+│   ├── datasets/
+│   │   └── __init__.py
+│   ├── pipeline.py
+│   ├── predict.py
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   ├── data_handling.py
+│   │   └── preprocessing.py
+│   ├── trained_models/
+│   │   └── __init__.py
+│   └── training_pipeline.py
+├── README.md
+├── requirements.txt
+├── setup.py
+└── tests/
+    ├── pytest.ini
+    └── test_prediction.py
